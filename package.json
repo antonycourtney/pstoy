@@ -1,0 +1,25 @@
+{
+  "name": "pstoy",
+  "version": "0.1.0",
+  "description": "Simple test project for purescript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "clean": "rimraf output && rimraf .pulp-cache",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pulp browserify --optimise --to dist/bundle.js"
+  },
+  "devDependencies": {
+    "pulp": "^9.0.1",
+    "purescript": "^0.9.2",
+    "purescript-psa": "^0.3.9",
+    "rimraf": "^2.5.4"
+  },
+  "keywords": [
+  ],
+  "license": "MIT",
+  "dependencies": {
+  }
+}
